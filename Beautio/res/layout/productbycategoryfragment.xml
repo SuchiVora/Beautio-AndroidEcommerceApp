@@ -1,0 +1,27 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/categorylinearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <TextView android:id="@+id/lblcategory1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginBottom="5dp">  
+        	
+    </TextView>   
+
+     <View android:id="@+id/horizontalline"
+	    android:layout_height="2dp"
+	    android:layout_width="match_parent"
+	    android:background="#b2b2b2"
+	    />
+    <ListView android:id="@+id/categorylistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>   
+      
+   
+</LinearLayout>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:layout_width="wrap_content"  
+   android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout 
+    android:id="@+id/linearLayout1"  
+   android:layout_width="wrap_content"  
+   android:layout_height="wrap_content" 
+   android:orientation="horizontal">
+   <com.parse.ParseImageView android:id="@+id/_image"
+     android:layout_width="130dp"  
+     android:layout_height="130dp"/>
+    
+  	<LinearLayout android:id="@+id/linearlayout2"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="vertical">
+  	    <TextView android:id="@+id/lblproductname"
+  	        android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+  	    	 android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginBottom="5dp"/>
+		<LinearLayout android:id="@+id/linearlayout3"
+		    android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+  	    	android:orientation="horizontal">
+  	    	<TextView android:id="@+id/lbldollar"
+  	        	android:layout_width="wrap_content"
+  	    		android:layout_height="wrap_content"
+  	    	 	android:layout_marginLeft="10dp"
+        		android:layout_marginRight="2dp"
+        		android:layout_marginTop="5dp"
+        		android:layout_marginBottom="5dp"/>
+  	    	<TextView android:id="@+id/lblprice"
+  	        	android:layout_width="wrap_content"
+  	    		android:layout_height="wrap_content"
+  	    	 	android:layout_marginLeft="2dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginTop="5dp"
+        		android:layout_marginBottom="5dp"/>
+  	    	<TextView android:id="@+id/lblstock"
+  	        	android:layout_width="wrap_content"
+  	    		android:layout_height="wrap_content"
+  	    	 	android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginTop="5dp"
+        		android:layout_marginBottom="5dp"
+        		android:text="In Stock"/>  
+        </LinearLayout>	   
+    <LinearLayout android:id="@+id/linearlayout4"
+  	   	android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="horizontal">
+       	<Button android:id="@+id/btndelete"
+  	    	android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+  	    	android:layout_marginBottom="5dp"
+  	    	android:layout_marginTop="5dp"
+  	    	android:text="Delete" />  
+  	    <NumberPicker
+  	        android:id="@+id/numpicker1"
+  	        android:layout_width="wrap_content"
+  	        android:layout_height="80dp"
+  	        android:orientation="vertical" />
+    
+  	  </LinearLayout>
+  	  
+    </LinearLayout>
+
+</LinearLayout>
+    <View android:id="@+id/horizontalline1"
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#b2b2b2"/>
+</LinearLayout>
+ 

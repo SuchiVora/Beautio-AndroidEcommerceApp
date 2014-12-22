@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imglinearLayout1"  
+   android:layout_width="wrap_content"  
+   android:layout_height="wrap_content"  
+   android:orientation="vertical" 
+   android:clickable="true">  
+   <com.parse.ParseImageView android:id="@+id/_image"
+     android:layout_width="130dp"  
+     android:layout_height="130dp"/>  
+     <TextView android:id="@+id/_productid"  
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"  
+     android:layout_gravity="center_horizontal"
+     android:visibility="invisible"/>
+    <TextView android:id="@+id/_productName"  
+     android:layout_width="140dp"  
+     android:layout_height="wrap_content"  
+     android:layout_gravity="center_horizontal"/>
+   <TextView android:id="@+id/_productcost"  
+     android:layout_width="140dp"  
+     android:layout_height="wrap_content"  
+     android:layout_gravity="center_horizontal"/> 
+        
+ </LinearLayout>  
+ 
+     
+
+ 

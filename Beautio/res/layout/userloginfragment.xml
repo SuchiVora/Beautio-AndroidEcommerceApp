@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign In"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+        android:layout_marginBottom="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" ></TextView>
+     <EditText
+         android:id="@+id/etxtemail"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+       	 android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="5dp"
+         android:hint="abc@example.com"
+         android:ems="10"
+         android:inputType="textEmailAddress"
+         android:singleLine="true"
+        />
+
+     <EditText
+         android:id="@+id/etxtpassword"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+         android:ems="10"
+         android:hint="Password"
+         android:inputType="textPassword"
+         android:singleLine="true" 
+         android:layout_centerVertical="true">
+
+         <requestFocus />
+     </EditText>
+
+     <Button
+         android:id="@+id/butsignin"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+         android:text="Sign In"
+         android:background="@drawable/roundedbutton"
+        />
+	<View android:id="@+id/horizontalline"
+	    android:layout_height="2dp"
+	    android:layout_width="match_parent"
+	     android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+	    android:background="#b2b2b2"
+	    />
+	<TextView android:id="@+id/lblsignupinfo"
+	    android:layout_width ="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	     android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+	    android:text="If you don't have an account, sign up below "
+	    android:textStyle="italic"/>
+	     <Button
+         android:id="@+id/butregister"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+          android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+         android:text="Register"
+         android:onClick="signup"
+         android:background="@drawable/roundedbutton"
+         />
+
+    
+
+
+
+</LinearLayout> 

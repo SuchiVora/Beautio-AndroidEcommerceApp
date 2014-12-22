@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Beautio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cart">Cart</string>
+	<string name="txtview1">What\'s New</string>
+	<string name="txtview2">Bestseller\'s</string>
+	<string name="txtview3">Shop By Brands</string>
+	<string name="boldfont">1</string>
+	<string name="actionbar_background">#ffffff</string>
+	<string-array name="app_menu">
+        <item>Account sign in</item>
+        <item>Bath and Body</item>
+        <item>Fragrances</item>
+        <item>Hair</item>
+        <item>Makeup</item>
+        <item>Nails</item>
+        <item>Skincare</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="filter">
+        <item>Sort by</item>
+        <item>Name</item>
+        <item>Price: Low-High</item>
+        <item>Price: High-Low</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"  
+   android:layout_width="wrap_content"  
+   android:layout_height="wrap_content" 
+   android:orientation="horizontal">
+   <com.parse.ParseImageView android:id="@+id/categoryimage"
+     android:layout_width="130dp"  
+     android:layout_height="130dp"/>
+    
+    <LinearLayout android:id="@+id/linearlayout2"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:orientation="vertical">
+  	    <TextView android:id="@+id/lblcategoryproductname"
+  	        android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+  	    	 android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_marginTop="5dp"
+        	android:layout_marginBottom="5dp"/>
+		<LinearLayout android:id="@+id/linearlayout3"
+		    android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+  	    	android:orientation="horizontal">
+  	    	<TextView android:id="@+id/lblcategoryprice"
+  	        	android:layout_width="wrap_content"
+  	    		android:layout_height="wrap_content"
+  	    	 	android:layout_marginLeft="2dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginTop="5dp"
+        		android:layout_marginBottom="5dp"/>
+  	    	<TextView android:id="@+id/lblcatgeorystock"
+  	        	android:layout_width="wrap_content"
+  	    		android:layout_height="wrap_content"
+  	    	 	android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginTop="5dp"
+        		android:layout_marginBottom="5dp"
+        	/>  
+        </LinearLayout>	   
+   
+  	  
+    </LinearLayout>
+    </LinearLayout>
+	
