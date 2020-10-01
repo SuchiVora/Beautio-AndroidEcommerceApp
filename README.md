@@ -6,8 +6,8 @@ Beautio is an android ecommerce app to help customers find and shop for beauty r
 
 App Features:
 
-* Create and access your Beautio account
-* Buy products and read reviews
-* Filter the products by brands, name and price
+* Create and access your Beautio account with login or sign up option will be available.
+* Buy products and read reviews and write optio avalable you can more clearify about product.
+* Filter the products by brands, name and price as per your requirement.
 * Find the Best sellers and Newly added products
 
